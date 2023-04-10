@@ -4,9 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Naukri.com Clone</title>
-    <link rel="stylesheet" href="styles.css">
+    <!-- <link rel="stylesheet" href="styles.css"> -->
 </head>
 <style>
+	
+
+	/* Style for the header element */
+header {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+/* Style for the h1 element */
+header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+/* Style for the login button */
+header button {
+  background-color: #fff;
+  color: #333;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
 	/* Global styles */
 * {
     margin: 0;
@@ -281,6 +310,10 @@ nav ul li a:hover {
                 <li><a href="#">Services</a></li>
                 <li><a href="#">More</a></li>
             </ul>
+			
+			<h1>My Website</h1>
+			<a href="signup"><button>Signup</button></a>
+				<a href="login"><button>Login</button></a>
             <div class="search">
                 <input type="text" placeholder="Search Jobs">
                 <button>Search</button>
