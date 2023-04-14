@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Enter Mobile Number</title>
+</head>
+<body>
+	<h1>Enter Your Mobile Number</h1>
+	<form method="post" action="">
+		{% csrf_token %}
+		<label for="mobile_number">Mobile Number:</label>
+		<input type="tel" id="mobile_number" name="mobile_number" placeholder="Enter your mobile number" required>
+		<button type="submit">Send OTP</button>
+	</form>
+</body>
+</html>

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Enter OTP</title>
+</head>
+<body>
+	<h1>Enter Your OTP</h1>
+	<form method="post" action="">
+		{% csrf_token %}
+		<label for="OTP">OTP:</label>
+		<input type="tel" id="OTP" name="OTP" placeholder="Enter your OTP" required>
+		<button type="submit">Send OTP</button>
+	</form>
+</body>
+</html>
